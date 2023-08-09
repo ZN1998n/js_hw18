@@ -1,0 +1,152 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'MyFont';
+}
+
+@font-face {
+    font-family: 'MyFont';
+    src: url(fonts/MYRIADPRO-REGULAR.OTF);
+}
+
+.wrap {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+.credit {
+    height: 50px;
+    width: 100%;
+    background-color: rgb(243, 242, 242);
+}
+
+.credit p {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.offers {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+    height: 75px;
+    width: 1200px;
+    background-color: rgb(243, 242, 242);
+}
+
+.item {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+
+.iPhone {
+    padding-top: 20px;
+
+}
+
+.text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.right span {
+    color: brown;
+    font-size: 25px;
+}
+
+.right h1 {
+    font-size: 50px;
+}
+
+.right p {
+    font-size: 15px;
+    padding-top: 15px;
+    margin-bottom: 40px;
+}
+
+.border {
+    padding: 10px;
+    background-color: rgb(243, 242, 242);
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+.colors {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+button {
+    height: 25px;
+    width: 25px;
+    border-radius: 100%;
+    margin-bottom: 150px;
+}
+
+.btns span {
+    color: gainsboro;
+}
+
+.btns h2 {
+    margin-bottom: 25px;
+}
+
+.phone {
+    height: 450px;
+    width: 800px;
+    border-radius: 15px;
+    background-image: url(../img/iphone-14-pro.jpg) no-repeat center center / cover;
+    position: sticky;
+    top: 200px;
+}
+.item_phone {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 300px;
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+.item_phone p {
+    font-size: 13px;
+}
+
+.item_phone h4 {
+    font-size: 19px;
+}
+
+.help {
+    width: 300px;
+    height: 100px;
+    background-color: rgb(243, 242, 242);
+    border-radius: 15px;
+    margin-top: 10px;
+    padding: 15px;
+    margin-bottom: 120px;
+}
+
+.help h5 {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+
