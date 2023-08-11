@@ -93,11 +93,19 @@ header a {
 }
 
 button {
-    height: 25px;
-    width: 25px;
+    height: 35px;
+    width: 35px;
     border-radius: 100%;
     margin-bottom: 150px;
+    margin: 8px;
+    border: none;
 }
+
+.col {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
 
 .btns span {
     color: gainsboro;
@@ -105,16 +113,46 @@ button {
 
 .btns h2 {
     margin-bottom: 25px;
+    margin-top: 100px;
 }
 
 .phone {
     height: 450px;
     width: 800px;
     border-radius: 15px;
-    background-image: url(../img/iphone-14-pro.jpg) no-repeat center center / cover;
+    background: url(../js_hw18/img/iphone-14-pro.jpg) no-repeat center center / cover;
+    background-size: contain;
     position: sticky;
-    top: 200px;
+    top: 150px;
+    transition: 350ms;
 }
+
+.Deep {
+    background: linear-gradient(to bottom, #19053b, #644ec7);
+}
+
+.Gold {
+    background: linear-gradient(to bottom, #f1db5d, #d8c198);
+}
+
+.Silver {
+    background: linear-gradient(to bottom, #7c7c7c, #c0bebe);
+}
+
+.Space {
+    background: linear-gradient(to bottom, #000000, #3d3d3d);
+}
+
+.active {
+    border: 4px solid white;
+    outline: 2px solid rgb(10, 18, 126);
+}
+
+.passive {
+    border: 4px solid white;
+    outline: 2px solid rgb(72, 72, 73);
+}
+
 .item_phone {
     display: flex;
     justify-content: space-around;

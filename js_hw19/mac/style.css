@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'MyFont';
+
+}
+
+@font-face {
+    font-family: 'MyFont';
+    src: url(fonts/MYRIADPRO-REGULAR.OTF);
+}
+
+.wrap {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.photo {
+    height: 312px;
+    width: 290px;
+    background: url(../mac/img/mbp14-spacegray-select-202110\ 1.jpg) no-repeat center center / cover;
+    background-size: contain;
+    transition: 350ms;
+}
+
+center h1 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 59px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+center p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.mac {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 250px 0px;
+
+}
+
+.mac h1 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 59px;
+    text-align: left;
+
+}
+
+.mac h4 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+    color: #0071E3;
+    margin-top: 8px;
+    margin-bottom: 30px;
+}
+
+.color {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.push {
+    width: 155px;
+    height: 42px;
+    border: none;
+    border-radius: 10px;
+    background: #CFE7FF;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: center;
+    color: #797979;
+}
+
+.memari {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.price_btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 321px;
+    height: 57px;
+    border-radius: 10px;
+    background-color: white;
+    border: 2px solid #CFE7FF;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: left;
+    margin: 6px;
+    padding: 0px 12px 0px; 
+}
+
+.active {
+    background: #0071E3;
+    color: white;
+}
+
+.active_price{
+    border: 2px solid #007FFF
+}
