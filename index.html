@@ -5,8 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Raleway:wght@200;300&display=swap"
-        rel="stylesheet">
     <link rel="stylesheet" href="index.css">
 </head>
 
@@ -36,7 +34,7 @@
     <div class="wrap">
         <section class="offers">
             <div class="item">
-                <h3>Special Carrier Deals <br> <a href="#">See all deals</a></h3>
+                <h3>Special Carrier Deals <br> <a href="#" data-btn="active" class="btnPrice">See all deals</a></h3>
             </div>
             <div class="item">
                 <div class="item_logo"><img src="img/ATT.png" alt="" width="15px"></div>
@@ -103,17 +101,18 @@
                 </div>
                 <h2>Finish. <span> Pick your favorite.</span></h2>
                 <p class="col">Color</p>
-                <button data-col="Deep Purple" class="Deep"></button>
-                <button data-col="Gold" class="Gold"></button>
-                <button data-col="Silver" class="Silver"></button>
-                <button data-col="Space Black" class="Space"></button>
-
+                <div class="point">
+                    <button data-col="Deep Purple" class="Deep"></button>
+                    <button data-col="Gold" class="Gold"></button>
+                    <button data-col="Silver" class="Silver"></button>
+                    <button data-col="Space Black" class="Space"></button>
+                </div>
                 <h2>Storage.<span>How much space do <br> you need?</span></h2>
 
                 <div class="item_phone">
                     <div class="text_price">
                         <h4>128GB</h4>
-                
+
                     </div>
                     <p>From $1099 <br>
                         or $45.79/mo. <br> for 24 mo. before <br> trade-in*</p>
@@ -121,7 +120,7 @@
                 <div class="item_phone">
                     <div class="text_price">
                         <h4>256GB</h4>
-                        
+
                     </div>
                     <p>From $1199 <br>
                         or $49.95/mo. <br> for 24 mo. before <br> trade-in*</p>
@@ -129,7 +128,7 @@
                 <div class="item_phone">
                     <div class="text_price">
                         <h4>512GB</h4>
-                        
+
                     </div>
                     <p>From $1399 <br>
                         or $58.29/mo. <br> for 24 mo. before <br> trade-in*</p>
@@ -137,7 +136,7 @@
                 <div class="item_phone">
                     <div class="text_price">
                         <h4>1TB</h4>
-                        
+
                     </div>
                     <p>From $1599 <br>
                         or $66.62/mo. <br> for 24 mo. before <br> trade-in*</p>
@@ -145,7 +144,200 @@
             </div>
         </div>
     </div>
-    
+    <div class="modal_bg"></div>
+
+    <center class="window">
+        <button class="close"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 414.298 414.299"
+            style="enable-background:new 0 0 414.298 414.299;" xml:space="preserve">
+            <g>
+                <path
+                    d="M3.663,410.637c2.441,2.44,5.64,3.661,8.839,3.661c3.199,0,6.398-1.221,8.839-3.661l185.809-185.81l185.81,185.811 c2.44,2.44,5.641,3.661,8.84,3.661c3.198,0,6.397-1.221,8.839-3.661c4.881-4.881,4.881-12.796,0-17.679l-185.811-185.81 l185.811-185.81c4.881-4.882,4.881-12.796,0-17.678c-4.882-4.882-12.796-4.882-17.679,0l-185.81,185.81L21.34,3.663 c-4.882-4.882-12.796-4.882-17.678,0c-4.882,4.881-4.882,12.796,0,17.678l185.81,185.809L3.663,392.959 C-1.219,397.841-1.219,405.756,3.663,410.637z" />
+            </g>
+        </svg></button>
+        <h1>Incredible carrier deals? <br> We’ve got ‘em right here. 😎</h1>
+        <p>When you buy your new iPhone from Apple, you can still get a sweet carrier deal. Just select your
+            trade-in to see how much you can save. Have questions? No worries, <a href="#">our iPhone Specialists
+                are here to help.</a>
+        </p>
+        <div class="btn"><button><img src="img/ATT-logo-1.png" alt="" width="70px"></button>
+            <button><img src="img/T-mobile-logo.png" alt="" width="70px"></button>
+            <button><img src="img/verizone.png" alt="" width="70px"></button>
+        </div>
+
+        <select id="cities">
+            <option value="iPhone 12 Pro">iPhone 12 Pro</option>
+            <option value="iPhone 13 Pro">iPhone 13 Pro</option>
+            <option value="iPhone 14 Pro">iPhone 14 Pro</option>
+            <option value="iPhone 14 Pro Max">iPhone 14 Pro Max</option>
+            <option value="iPhone 12 Pro Max">iPhone 12 Pro Max</option>
+        </select>
+        <h4>For existing and new AT&T customers</h4>
+
+        <div class="price">
+            <div class="item">
+                <h1>iPnone 14 Pro</h1>
+                <button class="btn_credit"><svg fill="none" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="m4.21875 10.7812-1.4375 1.4376 12.49995 12.5.7188.6874.7188-.6874 12.5-12.5-1.4376-1.4376-11.7812 11.7813z"
+                            fill="#000"></path>
+                    </svg></button>
+            </div>
+            <hr>
+            <div class="info_price">
+                <div class="thing">
+                    <div class="cost">
+                        <p>Cost</p>
+                    </div>
+                    <div class="info_phone">
+                        <div class="pro">
+                            <h1>iPhone 14 Pro</h1>
+                        </div>
+                        <div class="from">
+                            <h1>From $0.00/mo. <br>
+                                over 36 mo. after trade-inΔ</h1>
+                            <p>Up to three monthly payments of $27.75 before AT&T bill credits begin.</p>
+                        </div>
+                        <div class="rate">
+                            <h1>$999.00</h1>
+                            <p>Total amount financed at 0% APR</p>
+                            <p>This is the total cost of your new iPhone before AT&T bill credits.</p>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="thing">
+                    <div class="credits">
+                        <p>Credits and Discounts</p>
+                    </div>
+                    <div class="rate">
+                        <h1>$999.00Δ</h1>
+                        <p>Total bill credits for: iPhone 12 Pro</p>
+                        <p>Bill credits will be applied to your AT&T bill over 36 months and will begin within three
+                            bill cycles. If you have any questions about your billing, contact AT&T.</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="thing">
+                    <div class="get">
+                        <p>How to Get <br> this Deal</p>
+                    </div>
+                    <div class="trade">
+                        <ul>
+                            <li>Trade in an eligible smartphone.</li>
+                            <li>Select AT&T Installment Plans as your monthly payment option — available <br> to new and
+                                existing AT&T customers who want to upgrade or add a line.</li>
+                            <li>Activate with an eligible AT&T rate plan.</li>
+                        </ul>
+                    </div>
+
+                </div>
+                <hr>
+            </div>
+            <div class="item">
+                <h1>iPnone 14 Pro Max</h1>
+                <button class="btn_creditTwo"><svg fill="none" viewBox="0 0 32 32"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="m4.21875 10.7812-1.4375 1.4376 12.49995 12.5.7188.6874.7188-.6874 12.5-12.5-1.4376-1.4376-11.7812 11.7813z"
+                            fill="#000"></path>
+                    </svg></button>
+            </div>
+            <hr>
+            <div class="info_priceTwo">
+                <div class="thing">
+                    <div class="cost">
+                        <p>Cost</p>
+                    </div>
+                    <div class="info_phone">
+                        <div class="pro">
+                            <h1>iPhone 14 Pro Max</h1>
+                        </div>
+                        <div class="from">
+                            <h1>From $2.75/mo. <br>
+                                over 36 mo. after trade-inΔ</h1>
+                            <p>Up to three monthly payments of $27.75 before AT&T bill credits begin.</p>
+                        </div>
+                        <div class="rate">
+                            <h1>$1,099.00</h1>
+                            <p>Total amount financed at 0% APR</p>
+                            <p>This is the total cost of your new iPhone before AT&T bill credits.</p>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="thing">
+                    <div class="credits">
+                        <p>Credits and Discounts</p>
+                    </div>
+                    <div class="rate">
+                        <h1>$1,000.00Δ</h1>
+                        <p>Total bill credits for: iPhone 12 Pro</p>
+                        <p>Bill credits will be applied to your AT&T bill over 36 months and will begin within three
+                            bill cycles. If you have any questions about your billing, contact AT&T.</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="thing">
+                    <div class="get">
+                        <p>How to Get <br> this Deal</p>
+                    </div>
+                    <div class="trade">
+                        <ul>
+                            <li>Trade in an eligible smartphone.</li>
+                            <li>Select AT&T Installment Plans as your monthly payment option — available <br> to new and
+                                existing AT&T customers who want to upgrade or add a line.</li>
+                            <li>Activate with an eligible AT&T rate plan.</li>
+                        </ul>
+                    </div>
+
+                </div>
+                <hr>
+            </div>
+            <p>∆ AT&T Special Deal: Monthly price reflects net monthly payment, after application of AT&T trade-in
+                credit applied over 36 months with purchase of an iPhone 14 Pro, iPhone 14 Pro Max, iPhone 14, or iPhone
+                14 Plus and trade-in of eligible smartphone. Receive credit with purchase of an iPhone 14 Pro or iPhone
+                14 Pro Max of either $1000, $700, or $350 (based upon the model and condition of your trade-in
+                smartphone). Receive credit with purchase of an iPhone 14 or iPhone 14 Plus of either $700 or $350
+                (based upon the model and condition of your trade-in smartphone). Max bill credits will not exceed the
+                cost of the device. Requires upgrade of an existing line or activation of a new line and purchase of a
+                new iPhone 14, iPhone 14 Plus, iPhone 14 Pro, or iPhone 14 Pro Max on qualifying 36 month 0% APR
+                installment plan, subject to carrier credit qualification. AT&T Installment Plan with Next Up is not
+                eligible for this promotion. $0 down for well qualified customers only, or down payment may be required
+                and depends on a variety of factors. Tax on full retail price due at sale. Requires activation on
+                eligible unlimited plan. If you cancel eligible wireless service, credits will stop and you will owe the
+                remaining device balance. Activation/Upgrade Fee: $35. Trade in device may not be on existing
+                installment plan. Bill credits are applied as a monthly credit over the 36 month installment plan.
+                Credits start within 3 bills. Will receive catchup credits once credits start. Wireless line must be on
+                an installment agreement, active, and in good standing for 30 days to qualify. Installment agreement
+                starts when device is shipped. To get all credits, device must remain on agreement for entire term and
+                you must keep eligible service on device for entire installment term. Limited time offer; subject to
+                change. Limits: one trade-in per qualifying purchase and one credit per line. May not be combinable with
+                other offers, discounts, or credits. Purchase, financing, other limits, and restrictions apply. Price
+                for iPhone 14 and iPhone 14 Plus includes $30 AT&T connectivity discount. Activation required. <br>
+                <br>
+                ◊◊ Trade-in values will vary based on the condition, year, and configuration of your eligible trade-in
+                device. Not all devices are eligible for credit. You must be at least 18 years old to be eligible to
+                trade in for credit or for an Apple Gift Card. Trade-in value may be applied toward qualifying new
+                device purchase, or added to an Apple Gift Card. Actual value awarded is based on receipt of a
+                qualifying device matching the description provided when estimate was made. Sales tax may be assessed on
+                full value of a new device purchase. In-store trade-in requires presentation of a valid photo ID (local
+                law may require saving this information). Offer may not be available in all stores, and may vary between
+                in-store and online trade-in. Some stores may have additional requirements. Apple or its trade-in
+                partners reserve the right to refuse or limit quantity of any trade-in transaction for any reason. More
+                details are available from Apple’s trade-in partner for trade-in and recycling of eligible devices.
+                Restrictions and limitations may apply.
+            </p>
+        </div>
+
+        <div class="specialist">
+            <img src="img/1569688165_seksualnaja-ilon-mask-75.png" alt="" width="55px">
+            <p>Have more questions?</p>
+            <a href="#">Ask an iPhone Specialist</a>
+        </div>
+        
+    </center>
+
 
 
 

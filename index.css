@@ -92,7 +92,7 @@ header a {
     
 }
 
-button {
+.point button {
     height: 35px;
     width: 35px;
     border-radius: 100%;
@@ -188,3 +188,207 @@ button {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+.window {
+    background: white;
+    padding: 20px 0px;
+    width: 600px;
+    height: fit-content;
+    border-radius: 10px;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    translate: -50% ;
+    display: none;
+    opacity: 0;
+    transition: .5s ease;
+}
+
+.window h1 {
+    font-size: 45px;
+}
+
+.window p {
+    font-size: 17px;
+    margin: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 110, 255);
+}
+
+.btn button {
+    width: 100px;
+    height: 45px;
+    border-radius: 20px;
+    border: none;
+
+    margin: 10px 0px 10px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+
+}
+
+select {
+    width: 500px;
+    height: 50px;
+    border-color: rgb(187, 187, 187);
+    border-radius: 10px;
+    font-size: 20px;
+    margin: 20px 0px 20px;
+}
+
+.window h4 {
+    font-size: 22px;
+    margin: 0px 0px 20px;
+}
+
+.price {
+    background-color: rgb(238, 238, 238);
+    padding: 20px 30px;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.item h1 {
+    font-size: 30px;
+}
+
+.item button {
+    width: 25px;
+    border: none;
+}
+
+.price p {
+    font-size: 13px;
+    color: rgb(170, 170, 170);
+    text-align: left;
+}
+
+.specialist {
+    margin-top: 20px; 
+}
+
+.modal_bg {
+    width: 100%;
+    height: 1800px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, .5);
+    display: none;
+    backdrop-filter: blur(4px);
+    opacity: 0;
+}
+
+.close {
+    width: 40px;
+    border-radius: 100%;
+    border: none;
+    padding: 10px;
+    margin-right: 500px;
+}
+
+
+
+
+
+.info_priceTwo{
+    display: none;
+}
+
+
+.info_price{
+    display: none;
+}
+
+
+.thing {
+    display: flex;
+    justify-content: left;
+    text-align: left;
+
+}
+
+.pro {
+    margin-top: 10px;
+}
+
+.thing h1 {
+    font-size: 20px;
+    
+}
+
+.from {
+
+    margin-top: 15px;
+}
+
+.from p {
+    color: black;
+    text-align: left;
+    font-size: 10px;
+}
+
+.cost {
+    margin-right: 80px;
+
+}
+
+.cost p {
+    font-size: 18px;
+    color: black;
+}
+
+.rate p {
+    font-size: 10px;
+    color: black;
+}
+
+.credits {
+    margin-right: 25px;
+}
+
+.credits p {
+    font-size: 18px;
+    color: black;
+}
+
+.rate {
+    margin-top: 10px;
+}
+
+.trade {
+    font-size: 12px;
+    margin: 10px 0px;
+}
+
+.get {
+    margin-right: 45px;
+}
+
+.get p {
+    font-size: 18px;
+    color: black;
+    padding: 5px;
+}

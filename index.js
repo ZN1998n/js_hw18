@@ -30,3 +30,51 @@ btns.forEach(btn => {
         p.innerHTML = current
     }
 })
+
+
+let modal = document.querySelector('.window')
+let btnPrice = document.querySelector('.btnPrice')
+let modal_bg = document.querySelector('.modal_bg')
+let btnClose = document.querySelector('.close')
+
+btnPrice.onclick = () => {
+    modal.style.display = "block"
+    modal_bg.style.display = "block"
+
+
+    setTimeout(() => {
+        modal.style.opacity = "1"
+        modal_bg.style.opacity = "1"
+    }, 100)
+
+
+}
+
+btnClose.onclick = () => {
+    modal.style.opacity = "0"
+    modal_bg.style.opacity = "0"
+
+    setTimeout(() => {
+        modal.style.display = "none"
+        modal_bg.style.display = "none"
+    }, 500)
+
+}
+
+
+let btnCredit = document.querySelector('.btn_credit')
+let modalCredit = document.querySelector('.info_price')
+
+btnCredit.onclick = () => {
+    modalCredit.style.display = "block"
+    
+}
+
+let btnCreditTwo = document.querySelector('.btn_creditTwo')
+let modalCreditTwo = document.querySelector('.info_priceTwo')
+
+btnCreditTwo.onclick = () => {
+    modalCreditTwo.style.display = "block"
+}
+
+
